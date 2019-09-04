@@ -1,0 +1,21 @@
+.field {
+  background: #dddddd;
+  border: 1px solid white;
+  flex: 1;
+  display: flex;
+  cursor: pointer;
+}
+
+.field__value {
+  margin: auto;
+  height: 70%;
+  width: 70%;
+}
+
+.field__value--pristine {
+  opacity: 0;
+}
+
+.field:hover .field__value--pristine {
+  opacity: 0.2;
+}
